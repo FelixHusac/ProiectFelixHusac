@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProeictHusacFelix
+{
+    public class FirstClassFactory : PlaneTicketFactory
+    {
+        protected override PlaneTicket MakeTicket(Holder holder, Tuple<String, String> places, double price, bool isCorporate)
+        {
+            PlaneTicket ticket = new FirstClassTicket(holder, places, price, isCorporate);
+            return ticket;
+        }
+    }
+}
