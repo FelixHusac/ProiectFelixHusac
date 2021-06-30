@@ -3,4 +3,4 @@ factory
 strategy
 chain of responsibility
 
-UNIT TESTELE -> IN BRANCH-UL ProiectFelixHusac-unit-teste-pentru-aplicatie
+UNIT TESTELE -> IN BRANCH-UL ProiectFelixHusac-unit-tests-pt-aplicatie
